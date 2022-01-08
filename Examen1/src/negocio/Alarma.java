@@ -44,6 +44,7 @@ public class Alarma {
             valor = (vti << 5) | valor;
             valor = (vre << 3) | valor;
             valor = duracion | valor;
+            //v.set(valor, pos);
             datos[cont] = valor;
             cont++;
         }
